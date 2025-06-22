@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/main">
+
+    <TextView
+        android:id="@+id/txtFirstName"
+        android:layout_width="match_parent"
+        android:textSize="25sp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/txtLastName"
+        android:layout_width="match_parent"
+        android:textSize="25sp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/txtUniversity"
+        android:layout_width="match_parent"
+        android:textSize="25sp"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnGetUsers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Users"/>
+
+    <TextView
+        android:id="@+id/txtAveragePrice"
+        android:layout_width="match_parent"
+        android:textSize="25sp"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnGetProducts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Products"/>
+
+</LinearLayout>
